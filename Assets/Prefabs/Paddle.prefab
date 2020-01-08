@@ -139,8 +139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torque: 5
-  minX: 1.803
-  maxX: 19.48
+  minX: -3.62
+  maxX: 24.71
   speed: 50
   force: 10
 --- !u!50 &946297697728517313

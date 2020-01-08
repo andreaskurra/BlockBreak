@@ -845,4 +845,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 2.unity
   - Assets/Scenes/Win Screen.unity
   - Assets/Scenes/Game Over.unity
-  playerPath: D:/Repos/BlockBreak/Paddletry2.apk
+  playerPath: D:/Repos/BlockBreak/BlockBreak.apk

@@ -5,8 +5,8 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
     [SerializeField] float torque = 5f;
-    [SerializeField] float minX = 1.803f;
-    [SerializeField] float maxX = 19.48f;
+    [SerializeField] float minX = -3.62f;
+    [SerializeField] float maxX = 24.71f;
     //[SerializeField] float leftButton = 1f;
     //[SerializeField] float rightButton = 1f;
     //[SerializeField] float paddleYPos = 0.25f;
@@ -67,7 +67,7 @@ public class Paddle : MonoBehaviour
         {
             Vector2 paddlePos = new Vector2();
             paddlePos.x = Mathf.Clamp(GetXPos(), minX, maxX);
-            paddlePos.y = 0.25f;
+            paddlePos.y = -0.21f;
             transform.position = paddlePos;
         }
         else
